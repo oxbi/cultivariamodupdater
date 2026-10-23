@@ -1,5 +1,5 @@
 # Cultivaria mod updater / Обновлялка Cultivaria
-n**Easiest: open the [install page](https://oxbi.github.io/cultivariamodupdater/) with an English / Русский switch and a download button.**
+**Easiest: open the [install page](https://oxbi.github.io/cultivariamodupdater/) with an English / Русский switch and a download button.**
 
 Click a language to open or close it / Нажмите на язык, чтобы открыть или закрыть:
 
