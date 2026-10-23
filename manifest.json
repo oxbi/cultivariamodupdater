@@ -1,5 +1,5 @@
 {
- "pack_version": "2.9",
+ "pack_version": "2.9.1",
  "updater_sha1": "519907d1174e1eb92152769c2e06ae23ba2f8280",
  "owned_globs": [
   "mods/cultivaria-*.jar"
