@@ -1,5 +1,5 @@
 {
- "pack_version": "2.9.7",
+ "pack_version": "2.9.8",
  "updater_sha1": "519907d1174e1eb92152769c2e06ae23ba2f8280",
  "owned_globs": [
   "mods/cultivaria-*.jar"
@@ -215,9 +215,14 @@
    "size": 318788
   },
   {
+   "path": "mods/craftingtweaks-forge-1.20.1-18.2.9.jar",
+   "sha1": "0e49f431b105050fbf1b6a0e83de6e9cddccad3a",
+   "size": 230696
+  },
+  {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "49bc2a9f551c268ab1ad9625eb8ed7ebaea31a3c",
-   "size": 5981043
+   "sha1": "f41a75e226f554f697a6ee23de66dddcb6191bbd",
+   "size": 6072276
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
