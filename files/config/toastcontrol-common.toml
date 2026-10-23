@@ -1,0 +1,12 @@
+#Client Configuration
+[client]
+
+	[client.blocked_toasts]
+		#If advancement toasts are blocked.
+		advancements = false
+		#If recipe toasts are blocked.
+		recipes = true
+		#If system toasts are blocked.
+		system = false
+		#If tutorial toasts are blocked.
+		tutorial = true

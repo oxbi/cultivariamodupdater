@@ -1,0 +1,203 @@
+{
+  "hardInclude": "anything",
+  "includeList": [],
+  "includeListInSuperCategory": false,
+  "excludeMode": "ONLY",
+  "excludeList": [
+    "minecraft:item_frame",
+    "minecraft:glow_item_frame"
+  ],
+  "name": "gui.xaero_entity_category_root",
+  "protection": true,
+  "settingOverrides": {},
+  "subCategories": [
+    {
+      "hardInclude": "living",
+      "includeList": [],
+      "includeListInSuperCategory": false,
+      "excludeMode": "ONLY",
+      "excludeList": [
+        "minecraft:armor_stand"
+      ],
+      "name": "gui.xaero_entity_category_living",
+      "protection": true,
+      "settingOverrides": {
+        "renderOrder": 2.0,
+        "color": 14.0,
+        "displayed": false
+      },
+      "subCategories": [
+        {
+          "hardInclude": "players",
+          "includeList": [],
+          "includeListInSuperCategory": false,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "gui.xaero_entity_category_players",
+          "protection": true,
+          "settingOverrides": {
+            "renderOrder": 6.0,
+            "color": 15.0,
+            "heightLimit": 2050.0,
+            "displayed": true,
+            "icons": 2.0,
+            "names": 2.0,
+            "iconScale": 1.5
+          },
+          "subCategories": [
+            {
+              "hardInclude": "nothing",
+              "includeList": [],
+              "includeListInSuperCategory": false,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_friend",
+              "protection": true,
+              "settingOverrides": {},
+              "subCategories": []
+            },
+            {
+              "hardInclude": "tracked",
+              "includeList": [],
+              "includeListInSuperCategory": false,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_tracked",
+              "protection": true,
+              "settingOverrides": {},
+              "subCategories": []
+            },
+            {
+              "hardInclude": "same-team",
+              "includeList": [],
+              "includeListInSuperCategory": false,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_same_team",
+              "protection": true,
+              "settingOverrides": {},
+              "subCategories": []
+            },
+            {
+              "hardInclude": "anything",
+              "includeList": [],
+              "includeListInSuperCategory": false,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_other_teams",
+              "protection": true,
+              "settingOverrides": {
+                "renderOrder": 7.0
+              },
+              "subCategories": []
+            }
+          ]
+        },
+        {
+          "hardInclude": "nothing",
+          "includeList": [
+            "aquamirae:captain_cornelia",
+            "block_factorys_bosses:infernal_dragon",
+            "block_factorys_bosses:kraken",
+            "block_factorys_bosses:pirate_captain",
+            "block_factorys_bosses:sandworm",
+            "block_factorys_bosses:underworld_knight",
+            "block_factorys_bosses:yeti",
+            "bosses_of_mass_destruction:gauntlet",
+            "bosses_of_mass_destruction:lich",
+            "bosses_of_mass_destruction:obsidilith",
+            "bosses_of_mass_destruction:void_blossom",
+            "cataclysm:amethyst_crab",
+            "cataclysm:ancient_remnant",
+            "cataclysm:aptrgangr",
+            "cataclysm:clawdian",
+            "cataclysm:coralssus",
+            "cataclysm:ender_golem",
+            "cataclysm:ender_guardian",
+            "cataclysm:ignis",
+            "cataclysm:kobolediator",
+            "cataclysm:maledictus",
+            "cataclysm:netherite_monstrosity",
+            "cataclysm:scylla",
+            "cataclysm:the_harbinger",
+            "cataclysm:the_leviathan",
+            "cataclysm:the_prowler",
+            "cataclysm:wadjet",
+            "illageandspillage:magispeller",
+            "minecraft:ender_dragon",
+            "minecraft:wither",
+            "mowziesmobs:ferrous_wroughtnaut",
+            "mowziesmobs:frostmaw",
+            "mowziesmobs:sculptor",
+            "mowziesmobs:umvuthi"
+          ],
+          "includeListInSuperCategory": false,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "gui.xaero_entity_category_bosses",
+          "protection": true,
+          "settingOverrides": {
+            "renderOrder": 5.0,
+            "color": 4.0,
+            "displayed": true,
+            "icons": 0.0,
+            "names": 2.0,
+            "dotSize": 3.0,
+            "heightLimit": 2050.0
+          },
+          "subCategories": []
+        },
+        {
+          "hardInclude": "nothing",
+          "includeList": [
+            "cultivaria:connoisseur"
+          ],
+          "includeListInSuperCategory": false,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "gui.xaero_entity_category_npcs",
+          "protection": true,
+          "settingOverrides": {
+            "renderOrder": 4.0,
+            "color": 14.0,
+            "displayed": true,
+            "icons": 0.0,
+            "names": 2.0,
+            "dotSize": 3.0,
+            "heightLimit": 2050.0
+          },
+          "subCategories": []
+        }
+      ]
+    },
+    {
+      "hardInclude": "items",
+      "includeList": [],
+      "includeListInSuperCategory": false,
+      "excludeMode": "ONLY",
+      "excludeList": [],
+      "name": "gui.xaero_entity_category_items",
+      "protection": true,
+      "settingOverrides": {
+        "renderOrder": 1.0,
+        "color": 12.0,
+        "displayed": false
+      },
+      "subCategories": []
+    },
+    {
+      "hardInclude": "anything",
+      "includeList": [],
+      "includeListInSuperCategory": false,
+      "excludeMode": "ONLY",
+      "excludeList": [],
+      "name": "gui.xaero_entity_category_other_entities",
+      "protection": true,
+      "settingOverrides": {
+        "color": 5.0,
+        "displayed": false
+      },
+      "subCategories": []
+    }
+  ]
+}

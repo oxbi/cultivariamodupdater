@@ -1,0 +1,25 @@
+[potionshud]
+	Potions = false
+
+[inventoryhud]
+	byDefault = false
+
+[armorhud]
+	showMain = false
+	showOff = false
+	showArrows = false
+	showInv = false
+	showEmpty = false
+	showArrowsWithoutWeapon = false
+	armScale = 70
+	armAbove = 25
+
+[positions]
+	helmPosX = 103
+	helmPosY = 56
+	chestPosX = 103
+	chestPosY = 44
+	legPosX = 103
+	legPosY = 32
+	bootPosX = 103
+	bootPosY = 20

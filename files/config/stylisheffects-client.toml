@@ -1,0 +1,9 @@
+[renderers]
+
+	[renderers.inventory_renderer]
+		#Effect renderer to be used.
+		renderer_type = "NONE"
+
+	[renderers.gui_renderer]
+		#Effect renderer to be used.
+		renderer_type = "NONE"
