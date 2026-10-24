@@ -15,11 +15,11 @@
 	armAbove = 25
 
 [positions]
-	helmPosX = 103
+	helmPosX = 150
 	helmPosY = 56
-	chestPosX = 103
+	chestPosX = 150
 	chestPosY = 44
-	legPosX = 103
+	legPosX = 150
 	legPosY = 32
-	bootPosX = 103
+	bootPosX = 150
 	bootPosY = 20

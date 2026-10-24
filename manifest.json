@@ -1,5 +1,5 @@
 {
- "pack_version": "2.9.18",
+ "pack_version": "2.9.19",
  "updater_sha1": "454467bff87bc1dd9bed73aaa51bb2d53da5a995",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -34,9 +34,9 @@
   },
   {
    "path": "config/inventoryhud-client.toml",
-   "sha1": "83c927c1487b9dc29561c92c8f51bf107e66165a",
+   "sha1": "7e8af171c3176daacff3c4d893c7de05f864eaa5",
    "size": 368,
-   "since": "2.9.14"
+   "since": "2.9.19"
   },
   {
    "path": "config/ironfurnaces-client.toml",
@@ -295,9 +295,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "7dcfb247d604cb739745885959785f8008034695",
-   "size": 6464047,
-   "since": "2.9.18"
+   "sha1": "f70990219cb60402449a281407b31c5d774bbe2d",
+   "size": 6749236,
+   "since": "2.9.19"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
