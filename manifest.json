@@ -1,5 +1,5 @@
 {
- "pack_version": "2.9.14",
+ "pack_version": "2.9.15",
  "updater_sha1": "519907d1174e1eb92152769c2e06ae23ba2f8280",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -37,6 +37,11 @@
    "path": "config/ironfurnaces-client.toml",
    "sha1": "641b6efc9b557b9fa0daaa1f9aa94290384aa8fd",
    "size": 117
+  },
+  {
+   "path": "config/mantle-client.toml",
+   "sha1": "6a1801d289b119226d5910d5c4ed971fc1477577",
+   "size": 892
   },
   {
    "path": "config/oculus.properties",
@@ -243,8 +248,8 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "d7a5e251dd08e7f45244e786e8d67d73830ce5f0",
-   "size": 6191319
+   "sha1": "125bd41a463d6a8f8793b35df4c6e4ade91f52ae",
+   "size": 6376196
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
