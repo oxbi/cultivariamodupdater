@@ -70,12 +70,25 @@ try {
 
         $want = @{}; foreach ($f in $m.files) { $want[$f.path] = $f }
 
+        # settings files (config/, shader settings): a player's own copy is kept unless the pack changed that file
+        # (manifest "since") after the version this PC last updated to; delete the file to get the pack's copy back
+        function IsSetting($p) { $p -like 'config/*' -or $p -like 'shaderpacks/*.txt' }
+        function ChangedSince($since, $old) {
+            try { return ([version]$since) -gt ([version]$old) } catch { return $true }  # '(none)' = first run: the pack's copy
+        }
         # files to download: missing or different from the manifest
-        $toGet = @()
+        $toGet = @(); $kept = @()
         foreach ($f in $m.files) {
             $lp = Local $f.path
             if ($f.seed) { if (-not (Test-Path -LiteralPath $lp)) { $toGet += $f }; continue }  # seed files: only installed when missing, never overwritten
-            if (-not (Test-Path -LiteralPath $lp) -or (Sha1 $lp) -ne $f.sha1) { $toGet += $f }
+            if (-not (Test-Path -LiteralPath $lp)) { $toGet += $f; continue }
+            if ((Sha1 $lp) -eq $f.sha1) { continue }
+            if ((IsSetting $f.path) -and $f.since -and -not (ChangedSince $f.since $oldVersion)) { $kept += $f.path; continue }
+            $toGet += $f
+        }
+        if ($kept.Count -gt 0) {
+            Write-Host "Kept your own copy of $($kept.Count) settings file(s) (delete one to get the pack's version on the next run):"
+            $kept | ForEach-Object { "  keep   $_" }
         }
         # files to remove: owned before / retired / matching an owned pattern, and no longer in the manifest
         $cand = New-Object System.Collections.Generic.HashSet[string]
