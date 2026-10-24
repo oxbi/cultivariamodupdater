@@ -1,5 +1,5 @@
 {
- "pack_version": "2.9.13",
+ "pack_version": "2.9.14",
  "updater_sha1": "519907d1174e1eb92152769c2e06ae23ba2f8280",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -43,6 +43,11 @@
    "sha1": "7e029306f3569cb311cea57dfbc10746788c7685",
    "size": 265,
    "seed": true
+  },
+  {
+   "path": "config/simplyswords/general.toml",
+   "sha1": "0de631b13e5a031bce0da7e5e9c0cc7e9833b7d4",
+   "size": 874
   },
   {
    "path": "config/simplytooltips/config.toml",
@@ -238,8 +243,8 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "ccd43471d5455f750723a7f1a5561be7233580bc",
-   "size": 6162536
+   "sha1": "d7a5e251dd08e7f45244e786e8d67d73830ce5f0",
+   "size": 6191319
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -728,8 +733,8 @@
   },
   {
    "path": "shaderpacks/MakeUp-UltraFast-9.5c.zip",
-   "sha1": "57dfa2eb8b3f9c2e4963f6b77a3cedb0e846dc5d",
-   "size": 398840
+   "sha1": "14e2b7b746e8b37b92a9b7e2bf94308085e8cac4",
+   "size": 399953
   },
   {
    "path": "shaderpacks/MakeUp-UltraFast-9.5c.zip.txt",
