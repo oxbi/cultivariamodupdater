@@ -1,12 +1,14 @@
 {
- "pack_version": "2.9.19",
+ "pack_version": "3.0",
  "updater_sha1": "454467bff87bc1dd9bed73aaa51bb2d53da5a995",
  "owned_globs": [
   "mods/cultivaria-*.jar",
   "mods/InventoryProfilesNext-*.jar",
   "mods/libIPN-*.jar"
  ],
- "retired": [],
+ "retired": [
+  "mods/veinminer-1.1.0.jar"
+ ],
  "files": [
   {
    "path": "config/apotheosis/adventure.cfg",
@@ -114,6 +116,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/accurateblockplacement-1.201.jar",
+   "sha1": "d84c34eb63436f24296b90f4a8df5975bf022195",
+   "size": 15108,
+   "since": "3.0"
+  },
+  {
    "path": "mods/Apotheosis-1.20.1-7.4.8.jar",
    "sha1": "e508c4724a24f0c80836818fcdd3df6424b1fc40",
    "size": 2803994,
@@ -166,6 +174,12 @@
    "sha1": "dae7e647fc54609e66e4f910931be65776352b72",
    "size": 561741,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/bbb-1.20.1-forge-1.1.1.jar",
+   "sha1": "3fef65f2180f5657c89f1d6848c9dd2017872894",
+   "size": 1417098,
+   "since": "3.0"
   },
   {
    "path": "mods/BCLib-20.0.16-forge.jar",
@@ -252,10 +266,22 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/connectiblechains-forge-1.20.1-2.2.5.jar",
+   "sha1": "ae07dbae43d61c82bb2f19412d73b923b871f176",
+   "size": 364527,
+   "since": "3.0"
+  },
+  {
    "path": "mods/Connector-1.0.0-beta.49+1.20.1.jar",
    "sha1": "2b167110353c0622939a674b80ae35b1ed6b5625",
    "size": 5046109,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/constructionwand-1.20.1-2.11.jar",
+   "sha1": "80bd5223cd8984dc1038cb9f2d1cb6b97f31998a",
+   "size": 210312,
+   "since": "3.0"
   },
   {
    "path": "mods/continuity-3.0.0+1.20.1.forge.jar",
@@ -295,9 +321,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "f70990219cb60402449a281407b31c5d774bbe2d",
-   "size": 6749236,
-   "since": "2.9.19"
+   "sha1": "814b0e9098bc9202ff713c5414c249bd1fb3322a",
+   "size": 6999467,
+   "since": "3.0"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -318,10 +344,22 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/DiagonalWalls-v8.0.4-1.20.1-Forge.jar",
+   "sha1": "cada35009f4f268d1685be9ce888b610b1ae607d",
+   "size": 173567,
+   "since": "3.0"
+  },
+  {
    "path": "mods/dynamiclights-v1.9-mc1.17-1.21.9-mod.jar",
    "sha1": "422cd454bf4bc662c146a4ca598fbc6b3e870ee8",
    "size": 406570,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/elevatorid-1.20.1-1.9.1-forge.jar",
+   "sha1": "9117fbb20ce0b3b9abd25e19b3d5987a53be30c9",
+   "size": 187868,
+   "since": "3.0"
   },
   {
    "path": "mods/elixirum-forge-1.20.1-0.12.1.jar",
@@ -400,6 +438,18 @@
    "sha1": "3a06f9bcdb3c606fbd2de2a599f3f4c6b20fd475",
    "size": 2883636,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/ftb-library-forge-2001.2.13.jar",
+   "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e",
+   "size": 780558,
+   "since": "3.0"
+  },
+  {
+   "path": "mods/ftb-ultimine-forge-2001.1.8.jar",
+   "sha1": "c2a1eb72c36ad067faafbff4e1618c4db906de74",
+   "size": 129653,
+   "since": "3.0"
   },
   {
    "path": "mods/fzzy_config-0.7.7+1.20.1+forge.jar",
@@ -552,6 +602,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/mcw-bridges-3.1.2-mc1.20.1forge.jar",
+   "sha1": "24f30313977ec61520a2adab321188b51c208d16",
+   "size": 693579,
+   "since": "3.0"
+  },
+  {
    "path": "mods/mcw-paintings-1.1.0-mc1.20.1forge.jar",
    "sha1": "06249429fe69cedfad63253aaee4da29ebe9beda",
    "size": 175597,
@@ -562,6 +618,12 @@
    "sha1": "9f60142dd94631800386a16a4ad70ad9e84cd78a",
    "size": 227925,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/midnightlib-forge-1.9.2+1.20.1.jar",
+   "sha1": "ff01aa718b71249012c41d9926d3fd2982809fdb",
+   "size": 61987,
+   "since": "3.0"
   },
   {
    "path": "mods/modernfix-forge-5.27.89+mc1.20.1.jar",
@@ -664,6 +726,18 @@
    "sha1": "4f464a183a2df82978c3f6cf55e714bde694af68",
    "size": 301935,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/PrettyPipes-1.15.0-all.jar",
+   "sha1": "8e69a3719b89e67b0d26792d7ce0d77fbfaf02e4",
+   "size": 2152378,
+   "since": "3.0"
+  },
+  {
+   "path": "mods/ProPlacer-v8.0.3-1.20.1-Forge.jar",
+   "sha1": "18913e0d25348fc142aec252bc17004eb897e6ad",
+   "size": 63234,
+   "since": "3.0"
   },
   {
    "path": "mods/PuzzlesLib-v8.1.36-1.20.1-Forge.jar",
@@ -831,12 +905,6 @@
    "path": "mods/trashcans-1.1.2-forge-mc1.20.4.jar",
    "sha1": "a190dea5b210b57ee86aed487c20e83c27a0717e",
    "size": 169011,
-   "since": "2.9.14"
-  },
-  {
-   "path": "mods/veinminer-1.1.0.jar",
-   "sha1": "9dccfe9d5bc5079c3b7c3dff6467364460af43c7",
-   "size": 46917,
    "since": "2.9.14"
   },
   {
