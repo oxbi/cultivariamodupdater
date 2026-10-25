@@ -1,5 +1,5 @@
 {
- "pack_version": "3.0.1",
+ "pack_version": "3.0.2",
  "updater_sha1": "454467bff87bc1dd9bed73aaa51bb2d53da5a995",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -7,6 +7,8 @@
   "mods/libIPN-*.jar"
  ],
  "retired": [
+  "mods/bbb-1.20.1-forge-1.1.1.jar",
+  "mods/midnightlib-forge-1.9.2+1.20.1.jar",
   "mods/veinminer-1.1.0.jar"
  ],
  "files": [
@@ -51,6 +53,12 @@
    "sha1": "6a1801d289b119226d5910d5c4ed971fc1477577",
    "size": 892,
    "since": "2.9.15"
+  },
+  {
+   "path": "config/Obscuria/obscure-api-client.toml",
+   "sha1": "c090648091102dc6d78bf73eaf01db3cd8a73fd6",
+   "size": 345,
+   "since": "3.0.2"
   },
   {
    "path": "config/oculus.properties",
@@ -174,12 +182,6 @@
    "sha1": "dae7e647fc54609e66e4f910931be65776352b72",
    "size": 561741,
    "since": "2.9.14"
-  },
-  {
-   "path": "mods/bbb-1.20.1-forge-1.1.1.jar",
-   "sha1": "3fef65f2180f5657c89f1d6848c9dd2017872894",
-   "size": 1417098,
-   "since": "3.0"
   },
   {
    "path": "mods/BCLib-20.0.16-forge.jar",
@@ -321,9 +323,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "2ce34304086cf5a49606c0176455bb91dead2c5c",
-   "size": 6999488,
-   "since": "3.0.1"
+   "sha1": "e2d5bf09ec99481a56f75e1a65895c682380f6b5",
+   "size": 7019606,
+   "since": "3.0.2"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -618,12 +620,6 @@
    "sha1": "9f60142dd94631800386a16a4ad70ad9e84cd78a",
    "size": 227925,
    "since": "2.9.14"
-  },
-  {
-   "path": "mods/midnightlib-forge-1.9.2+1.20.1.jar",
-   "sha1": "ff01aa718b71249012c41d9926d3fd2982809fdb",
-   "size": 61987,
-   "since": "3.0"
   },
   {
    "path": "mods/modernfix-forge-5.27.89+mc1.20.1.jar",
