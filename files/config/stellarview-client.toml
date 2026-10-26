@@ -1,3 +1,6 @@
 ["Stellar View Client Config"."General Config".client]
 	static_sky = true
 	light_pollution = false
+
+["Stellar View Client Config"."Overworld Config".client.overworld]
+	vanilla_moon = true

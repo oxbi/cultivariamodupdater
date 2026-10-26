@@ -1,5 +1,5 @@
 {
- "pack_version": "3.0.3",
+ "pack_version": "3.0.4",
  "updater_sha1": "454467bff87bc1dd9bed73aaa51bb2d53da5a995",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -81,9 +81,9 @@
   },
   {
    "path": "config/stellarview-client.toml",
-   "sha1": "5d2238af8b88b15f85e3dbc91b03cce433093d26",
-   "size": 99,
-   "since": "2.9.14"
+   "sha1": "b416a93363dc7c20a8e72c0a017cfb720490ba9f",
+   "size": 188,
+   "since": "3.0.4"
   },
   {
    "path": "config/stylisheffects-client.toml",
@@ -323,9 +323,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "5dd858493c89d4afe137b7edc128a279eca5131f",
-   "size": 7022122,
-   "since": "3.0.3"
+   "sha1": "479bb36113a56f5ac1b3d6a165b8e42185998ce0",
+   "size": 7277781,
+   "since": "3.0.4"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -488,6 +488,12 @@
    "sha1": "f1b9a009529134c736c59d6d192d53a4a25e5e5f",
    "size": 7111059,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/hourglass-1.20-1.2.1.1.jar",
+   "sha1": "d7e6bf68eab1471e27573372a2bcf07d3744987d",
+   "size": 235134,
+   "since": "3.0.4"
   },
   {
    "path": "mods/illageandspillagerespillaged-1.2.8.jar",
