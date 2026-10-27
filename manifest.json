@@ -1,5 +1,5 @@
 {
- "pack_version": "3.1",
+ "pack_version": "3.1.1",
  "updater_sha1": "454467bff87bc1dd9bed73aaa51bb2d53da5a995",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -72,6 +72,12 @@
    "size": 265,
    "since": "2.9.14",
    "seed": true
+  },
+  {
+   "path": "config/particlerain/particles.json",
+   "sha1": "bf1b5725f666283631ee729e73a1708b61c9926e",
+   "size": 191,
+   "since": "3.1.1"
   },
   {
    "path": "config/simplyswords/general.toml",

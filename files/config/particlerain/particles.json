@@ -1,0 +1,14 @@
+{
+  "fog": {
+    "enabled": false
+  },
+  "vertical_fog": {
+    "enabled": false
+  },
+  "fog_after_rain": {
+    "enabled": false
+  },
+  "vertical_fog_after_rain": {
+    "enabled": false
+  }
+}
