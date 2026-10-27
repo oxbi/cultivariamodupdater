@@ -1,5 +1,5 @@
 {
- "pack_version": "3.6",
+ "pack_version": "3.6.1",
  "updater_sha1": "454467bff87bc1dd9bed73aaa51bb2d53da5a995",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -104,6 +104,12 @@
    "sha1": "7220959efcc8d8c9d9a59997371bdec5d4c8971f",
    "size": 126759,
    "since": "3.5"
+  },
+  {
+   "path": "config/paxi/resourcepacks/Tender-Dragon-1.6.zip",
+   "sha1": "c76edcd8bf3ef92002d18d2b22d3ff96c659e1c2",
+   "size": 116246,
+   "since": "3.6.1"
   },
   {
    "path": "config/simplyswords/general.toml",
@@ -395,9 +401,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "a422d58802fb613407daed01d687034e03835cb5",
-   "size": 7781466,
-   "since": "3.6"
+   "sha1": "5120a6fac88ef921c019debce4a25200ff69246e",
+   "size": 7815663,
+   "since": "3.6.1"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -436,6 +442,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/edf-remastered-4.3.jar",
+   "sha1": "80d348c609b4ee11092f15a3208903bded47c56b",
+   "size": 47431624,
+   "since": "3.6.1"
+  },
+  {
    "path": "mods/elevatorid-1.20.1-1.9.1-forge.jar",
    "sha1": "9117fbb20ce0b3b9abd25e19b3d5987a53be30c9",
    "size": 187868,
@@ -470,6 +482,18 @@
    "sha1": "3a7ac29b6e3561b34fd68d9c140de89319462213",
    "size": 1638200,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/entity_model_features-3.3.12-1.20.1-forge.jar",
+   "sha1": "adcec598039ec59a805a974de9d23ff5eede8299",
+   "size": 840669,
+   "since": "3.6.1"
+  },
+  {
+   "path": "mods/entity_texture_features-7.2.6-1.20.1-forge.jar",
+   "sha1": "61f8c27ea487064f674a587780f3b6f24f22a74f",
+   "size": 999570,
+   "since": "3.6.1"
   },
   {
    "path": "mods/entityculling-forge-1.11.3-mc1.20.1.jar",
@@ -1058,6 +1082,12 @@
    "sha1": "61952fb248a9689fe46d5ffb223fcc41e31fef1a",
    "size": 536782,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/witherreincarnated-1.20.1-1.0.5.jar",
+   "sha1": "a03dac62ffce65e49b0fa7f6c6d5b33a82ea1dd2",
+   "size": 12807443,
+   "since": "3.6.1"
   },
   {
    "path": "mods/WunderLib-20.0.1.jar",
