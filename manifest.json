@@ -1,5 +1,5 @@
 {
- "pack_version": "3.0.4",
+ "pack_version": "3.1",
  "updater_sha1": "454467bff87bc1dd9bed73aaa51bb2d53da5a995",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -7,9 +7,15 @@
   "mods/libIPN-*.jar"
  ],
  "retired": [
+  "config/xaero/minimap/profiles/default.cfg",
+  "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
   "mods/bbb-1.20.1-forge-1.1.1.jar",
+  "mods/lootr-forge-1.20-0.7.35.94.jar",
   "mods/midnightlib-forge-1.9.2+1.20.1.jar",
-  "mods/veinminer-1.1.0.jar"
+  "mods/tectonic-3.0.17-forge-1.20.1.jar",
+  "mods/veinminer-1.1.0.jar",
+  "mods/xaerominimap-forge-1.20.1-26.6.0.jar",
+  "mods/xaeroworldmap-forge-1.20.1-1.47.0.jar"
  ],
  "files": [
   {
@@ -98,20 +104,6 @@
    "since": "2.9.14"
   },
   {
-   "path": "config/xaero/minimap/profiles/default.cfg",
-   "sha1": "a62bbbed0707db3d8e79343b2297f46549741a30",
-   "size": 141,
-   "since": "2.9.14",
-   "seed": true
-  },
-  {
-   "path": "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
-   "sha1": "5d08fd1ac644305239c08beaf837f4c3314d955c",
-   "size": 6244,
-   "since": "2.9.14",
-   "seed": true
-  },
-  {
    "path": "mods/[1.20-1.20.1]+Comics+Bubbles+Chat-1.3.4.jar",
    "sha1": "704023d1816fd4a22b5c1176b73221e6e1caaede",
    "size": 59047,
@@ -172,6 +164,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/atmospheric-1.20.1-6.1.1.jar",
+   "sha1": "9a655ae0953d0205c10315560466779228c08b18",
+   "size": 5213524,
+   "since": "3.1"
+  },
+  {
    "path": "mods/automobility-0.4.2+1.20.1-forge.jar",
    "sha1": "007f228d2d728ec0ec79ab405d09b05a4ee7bed6",
    "size": 1054094,
@@ -196,6 +194,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/better-trees-1.8.jar",
+   "sha1": "469daad5cc4d94524d6fb9945dcbc05d2897e965",
+   "size": 434896,
+   "since": "3.1"
+  },
+  {
    "path": "mods/BetterEnd-20.0.13-forge.jar",
    "sha1": "b1a3fe193075cfcf6191558f07b4064154a95209",
    "size": 97638057,
@@ -206,6 +210,12 @@
    "sha1": "f27671c93f058053a599e0f2c99ad78e912ecf44",
    "size": 23963009,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/blueprint-1.20.1-7.1.5.jar",
+   "sha1": "78d5ce605ee1c19396fa59c45f541b99e1086768",
+   "size": 1160817,
+   "since": "3.1"
   },
   {
    "path": "mods/Boat-Item-View-Forge-1.20.1-0.0.5.jar",
@@ -323,9 +333,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "479bb36113a56f5ac1b3d6a165b8e42185998ce0",
-   "size": 7277781,
-   "since": "3.0.4"
+   "sha1": "438ad61a5b420abddbd5166d92cc13cc61516356",
+   "size": 7291034,
+   "since": "3.1"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -350,6 +360,12 @@
    "sha1": "cada35009f4f268d1685be9ce888b610b1ae607d",
    "size": 173567,
    "since": "3.0"
+  },
+  {
+   "path": "mods/diorama-0.4.0+forge-1.20.1.1.jar",
+   "sha1": "bf38eb965cb4b2961cc653c6d9afe273266cb593",
+   "size": 765841,
+   "since": "3.1"
   },
   {
    "path": "mods/dynamiclights-v1.9-mc1.17-1.21.9-mod.jar",
@@ -472,6 +488,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/Geophilic v3.7.mod.jar",
+   "sha1": "4d668978e18b450c030ed4be096fce52d3a9ceca",
+   "size": 1115993,
+   "since": "3.1"
+  },
+  {
    "path": "mods/golemsarefriends-1.20.0-1.0.1.jar",
    "sha1": "e6a26611478acb166d8715eda955e09a0325a758",
    "size": 13051,
@@ -506,6 +528,12 @@
    "sha1": "9eacd407b7dea636d375dc47335d92f616484ea2",
    "size": 532063,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/Incendium_1.20.x_v5.3.5.jar",
+   "sha1": "484556937b1b2dde2682144e7953e79bff717104",
+   "size": 4638945,
+   "since": "3.1"
   },
   {
    "path": "mods/inventoryhud.forge.1.20.1-3.4.26.jar",
@@ -592,12 +620,6 @@
    "since": "2.9.14"
   },
   {
-   "path": "mods/lootr-forge-1.20-0.7.35.94.jar",
-   "sha1": "1ec77a7df8adbf3290a296bf25b8f99f37a60020",
-   "size": 463485,
-   "since": "2.9.14"
-  },
-  {
    "path": "mods/Lychee-1.20.1-Forge-5.2.1.jar",
    "sha1": "7843a1d6fcb1fd5cb10e2e4296bea595cc8ffe8a",
    "size": 694814,
@@ -656,6 +678,12 @@
    "sha1": "f8705d1e9695a17c6b6c9f7294b49fa71476cec5",
    "size": 43426,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/natures_spirit-2.2.5-1.20.1.jar",
+   "sha1": "edd4d2ea52eed1ff90b412f10eb29f5e4650c147",
+   "size": 18964334,
+   "since": "3.1"
   },
   {
    "path": "mods/notenoughanimations-forge-1.12.6-mc1.20.1.jar",
@@ -856,6 +884,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/StreamsReflowing-1.20.1-forge-2.15.2.jar",
+   "sha1": "00b8d095c0d672d48c8ed312ca94646f43418f94",
+   "size": 3205008,
+   "since": "3.1"
+  },
+  {
    "path": "mods/StylishEffects-v8.0.4-1.20.1-Forge.jar",
    "sha1": "59875211e95b9bc0e5014e970ec025fd11e51875",
    "size": 120579,
@@ -886,10 +920,22 @@
    "since": "2.9.14"
   },
   {
-   "path": "mods/tectonic-3.0.17-forge-1.20.1.jar",
-   "sha1": "07bfe13bc1bd75a6277f3d62bf92a549b33067a9",
-   "size": 322575,
-   "since": "2.9.14"
+   "path": "mods/TerraBlender-forge-1.20.1-3.0.1.11.jar",
+   "sha1": "ee0e4263fe48320ee6a79939be7299497f695744",
+   "size": 107575,
+   "since": "3.1"
+  },
+  {
+   "path": "mods/Terralith_1.20.x_v2.5.4.jar",
+   "sha1": "79e1409b8db4ce86df9d6d6730f09c4bd8860a30",
+   "size": 3156901,
+   "since": "3.1"
+  },
+  {
+   "path": "mods/Terraphilic v1.0.0 f15-48 Forge.jar",
+   "sha1": "5b5e3310713d52b837a828cd589130f411b0f1d6",
+   "size": 237374,
+   "since": "3.1"
   },
   {
    "path": "mods/TinkersLevellingAddon-1.20.1-1.4.3.jar",
@@ -919,18 +965,6 @@
    "path": "mods/WunderLib-20.0.1.jar",
    "sha1": "6a46259eb5cbf8d37697a20dfe7238ed180e4602",
    "size": 227846,
-   "since": "2.9.14"
-  },
-  {
-   "path": "mods/xaerominimap-forge-1.20.1-26.6.0.jar",
-   "sha1": "ee73886f2f5f27bf28cffa7cc8f2b9b4540df2aa",
-   "size": 2196194,
-   "since": "2.9.14"
-  },
-  {
-   "path": "mods/xaeroworldmap-forge-1.20.1-1.47.0.jar",
-   "sha1": "6715c1d3758a3805589d82c41dc581537fe185cd",
-   "size": 1429424,
    "since": "2.9.14"
   },
   {
