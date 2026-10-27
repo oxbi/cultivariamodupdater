@@ -4,6 +4,8 @@ Brings mods/, config/ and our jar in a .minecraft folder to the pack version in 
 Touches ONLY files the pack owns (listed in the manifest, or recorded as installed by a previous run).
 Every replaced or removed file is first copied to <gamedir>\cultivaria-update-backup\<time>\.
 Any failed download or check stops the run before a single file of the game folder is changed.
+Manifest "extras" (the music zip, hosted outside the pack repo) are the one exception: they are fetched AFTER the pack is
+installed, by sha256, only when missing or different, and a failure there prints one line and leaves the run successful.
 Usage: update-cultivaria.ps1 [-GameDir <.minecraft>] [-BaseUrl <https://... or folder>] [-CheckOnly]
 #>
 param(
@@ -39,6 +41,66 @@ try {
     }
     function Sha1($p) { (Get-FileHash -LiteralPath $p -Algorithm SHA1).Hash.ToLower() }
     function Local($rel) { Join-Path $GameDir ($rel -replace '/', '\') }
+    function Sha256($p) { (Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash.ToLower() }
+
+    # extras: big files hosted outside the pack repo (the music zip). Run after the pack is installed; never fails the run.
+    # Downloads to <file>.part, checks size + sha256, then moves it into place, so a cut-off download is never left as the file.
+    function Install-Extras($extras, [bool]$dry) {
+        foreach ($e in @($extras)) {
+            if (-not $e) { continue }
+            $name = "$($e.path)"
+            $part = $null
+            try {
+                if (-not $e.path -or -not $e.url -or -not $e.sha256 -or -not $e.size -or [IO.Path]::IsPathRooted($e.path) -or $e.path -match '(^|[\\/])\.\.([\\/]|$)') { throw "bad extras entry in manifest.json" }
+                $lp = Local $e.path
+                $mb = [math]::Round($e.size / 1MB)
+                if (Test-Path -LiteralPath $lp) {
+                    if ((Get-Item -LiteralPath $lp).Length -eq $e.size) {
+                        Write-Host "  checking $name ($mb MB) ..."
+                        if ((Sha256 $lp) -eq $e.sha256) { Write-Host "  ok     $name is already installed, nothing to download"; continue }
+                    }
+                    Write-Host "  $name is incomplete or different, fetching it again"
+                }
+                if ($dry) { Write-Host "  get    $name (extra, $mb MB)"; continue }
+                New-Item -ItemType Directory -Force -Path (Split-Path $lp -Parent) | Out-Null
+                $part = "$lp.part"
+                Remove-Item -LiteralPath $part -Force -ErrorAction SilentlyContinue
+                Write-Host "  downloading $name ($mb MB) - this is a one-time download ..."
+                Add-Type -AssemblyName System.Net.Http
+                $hc = New-Object System.Net.Http.HttpClient
+                $hc.DefaultRequestHeaders.UserAgent.ParseAdd('cultivaria-updater')
+                $resp = $hc.GetAsync([string]$e.url, [System.Net.Http.HttpCompletionOption]::ResponseHeadersRead).GetAwaiter().GetResult()
+                [void]$resp.EnsureSuccessStatusCode()
+                $in = $resp.Content.ReadAsStreamAsync().GetAwaiter().GetResult()
+                $out = [IO.File]::Create($part)
+                try {
+                    $buf = New-Object byte[] (1MB); $done = 0L; $tick = [Diagnostics.Stopwatch]::StartNew(); $nextPct = 10
+                    $live = -not [Console]::IsOutputRedirected
+                    while ($true) {
+                        $rd = $in.ReadAsync($buf, 0, $buf.Length)
+                        if (-not $rd.Wait(60000)) { throw "download stalled for 60 s" }
+                        $n = $rd.Result
+                        if ($n -le 0) { break }
+                        $out.Write($buf, 0, $n); $done += $n
+                        $pct = [int][math]::Floor(100 * $done / $e.size)
+                        if ($live) {
+                            if ($tick.ElapsedMilliseconds -ge 500) { Write-Host ("`r  {0} / {1} MB ({2}%)   " -f [math]::Round($done / 1MB), $mb, $pct) -NoNewline; $tick.Restart() }
+                        } elseif ($pct -ge $nextPct) { Write-Host ("  {0} / {1} MB ({2}%)" -f [math]::Round($done / 1MB), $mb, $pct); $nextPct += 10 }
+                    }
+                    if ($live) { Write-Host ("`r  {0} / {1} MB (100%)   " -f [math]::Round($done / 1MB), $mb) }
+                } finally { $out.Dispose(); $in.Dispose(); $resp.Dispose(); $hc.Dispose() }
+                if ((Get-Item -LiteralPath $part).Length -ne $e.size) { throw "downloaded $((Get-Item -LiteralPath $part).Length) bytes, expected $($e.size)" }
+                Write-Host "  verifying $name ..."
+                if ((Sha256 $part) -ne $e.sha256) { throw "checksum of the download does not match the manifest" }
+                Move-Item -LiteralPath $part -Destination $lp -Force
+                Write-Host "  installed $name" -ForegroundColor Green
+            } catch {
+                if ($part) { Remove-Item -LiteralPath $part -Force -ErrorAction SilentlyContinue }
+                $ex = $_.Exception; while ($ex.InnerException) { $ex = $ex.InnerException }  # the real reason, not "Exception calling GetResult"
+                Write-Host "OPTIONAL DOWNLOAD FAILED ($name): $($ex.Message). The pack itself is fully installed and works; the music list stays empty until a later run succeeds." -ForegroundColor Yellow
+            }
+        }
+    }
 
     $stage = Join-Path $env:TEMP ("cultivaria-update-" + [guid]::NewGuid().ToString('N'))
     New-Item -ItemType Directory -Path $stage | Out-Null
@@ -109,10 +171,11 @@ try {
         if ($toGet.Count -eq 0 -and $toRemove.Count -eq 0) {
             $newState | ConvertTo-Json -Depth 4 | Set-Content $statePath -Encoding UTF8
             Write-Host "Already up to date (pack $($m.pack_version))." -ForegroundColor Green
+            Install-Extras $m.extras $CheckOnly
             exit 0
         }
         Write-Host "Pack $oldVersion -> $($m.pack_version): $($toGet.Count) file(s) to download, $($toRemove.Count) old file(s) to remove."
-        if ($CheckOnly) { $toGet | ForEach-Object { "  get    $($_.path)" }; $toRemove | ForEach-Object { "  remove $_" }; exit 0 }
+        if ($CheckOnly) { $toGet | ForEach-Object { "  get    $($_.path)" }; $toRemove | ForEach-Object { "  remove $_" }; Install-Extras $m.extras $true; exit 0 }
 
         # 1. download and verify everything first
         $i = 0
@@ -149,6 +212,7 @@ try {
         }
         $newState | ConvertTo-Json -Depth 4 | Set-Content $statePath -Encoding UTF8
         Write-Host "Updated to pack $($m.pack_version). Old files are in $bk" -ForegroundColor Green
+        Install-Extras $m.extras $false
     } finally {
         Remove-Item -LiteralPath $stage -Recurse -Force -ErrorAction SilentlyContinue
     }

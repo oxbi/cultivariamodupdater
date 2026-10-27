@@ -1,6 +1,6 @@
 {
- "pack_version": "3.6.1",
- "updater_sha1": "454467bff87bc1dd9bed73aaa51bb2d53da5a995",
+ "pack_version": "3.6.2",
+ "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
   "mods/InventoryProfilesNext-*.jar",
@@ -18,6 +18,14 @@
   "mods/xaerominimap-forge-1.20.1-26.6.0.jar",
   "mods/xaeroworldmap-forge-1.20.1-1.47.0.jar",
   "paxi/resourcepacks/cultivaria-sword-view.zip"
+ ],
+ "extras": [
+  {
+   "path": "config/paxi/resourcepacks/cultivaria-music.zip",
+   "url": "https://github.com/oxbi/cultivaria-music/releases/download/music-v1/cultivaria-music.zip",
+   "sha256": "7d19a41aa1491b28c7a289e50eaafaf757503566bf87df46d1f8606dd7fb4b31",
+   "size": 1063296015
+  }
  ],
  "files": [
   {
@@ -401,9 +409,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "5120a6fac88ef921c019debce4a25200ff69246e",
-   "size": 7815663,
-   "since": "3.6.1"
+   "sha1": "f6e6cc2340789ae6b087207fbb5bd470e8602698",
+   "size": 7862968,
+   "since": "3.6.2"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
