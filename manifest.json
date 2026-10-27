@@ -1,5 +1,5 @@
 {
- "pack_version": "3.5",
+ "pack_version": "3.6",
  "updater_sha1": "454467bff87bc1dd9bed73aaa51bb2d53da5a995",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -316,6 +316,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/citatlas-1.0.0.jar",
+   "sha1": "6eefa737d995ccee029715803faef4e7db1b8c7d",
+   "size": 5509,
+   "since": "3.6"
+  },
+  {
    "path": "mods/citreforged-mc1.20.1-1.0.2.jar",
    "sha1": "ae4235a6295e02c377b369e8b3b08fe0cdaa18da",
    "size": 221864,
@@ -389,9 +395,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "148128a6a21f3af15a7973a3f9ff4c9219681ed8",
-   "size": 7773969,
-   "since": "3.5"
+   "sha1": "a422d58802fb613407daed01d687034e03835cb5",
+   "size": 7781466,
+   "since": "3.6"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
