@@ -1,5 +1,5 @@
 {
- "pack_version": "3.8",
+ "pack_version": "3.8.1",
  "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -406,9 +406,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "e6f54cd5f5b1048c59f6d78203e756c3dfa174e2",
-   "size": 7955363,
-   "since": "3.8"
+   "sha1": "bfb0c7f0d1972f0c36f0f3ca14bb7c9a73465905",
+   "size": 8063046,
+   "since": "3.8.1"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -949,6 +949,12 @@
    "sha1": "2fcdb0d2221b32fc4f64dea2957ec0dd7ace3174",
    "size": 99700,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/simplybows-forge-neoforge-0.1.4.jar",
+   "sha1": "da7a7f6fba1a27db061bb2f839909cc954c9cfdc",
+   "size": 4051435,
+   "since": "3.8.1"
   },
   {
    "path": "mods/simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
