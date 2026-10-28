@@ -1,0 +1,173 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "weight": 8,
+          "count": 0,
+          "min_count": 8,
+          "max_count": 16
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "weight": 6,
+          "count": 0,
+          "min_count": 6,
+          "max_count": 12
+        },
+        {
+          "type": "item",
+          "name": "minecraft:redstone",
+          "weight": 5,
+          "count": 0,
+          "min_count": 12,
+          "max_count": 24
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 4,
+          "count": 0,
+          "min_count": 8,
+          "max_count": 16
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "weight": 4,
+          "count": 0,
+          "min_count": 3,
+          "max_count": 6
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 10,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "weight": 12,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "weight": 6,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 10,
+          "count": 0,
+          "min_count": 4,
+          "max_count": 8
+        },
+        {
+          "type": "item",
+          "name": "minecraft:name_tag",
+          "weight": 3,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:key_shard_1",
+          "weight": 4,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:3s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:protection\",lvl:2s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:3s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:feather_falling\",lvl:2s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:3s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+        }
+      ]
+    }
+  ]
+}

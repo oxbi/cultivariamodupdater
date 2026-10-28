@@ -1129,6 +1129,198 @@
       "sha1": "94ceed8c7add1e892e62309871f5e4bbef49bed8",
       "size": 611,
       "since": "2.9.14"
+    },
+    {
+      "path": "config/rks_airdrops/loot/ammo_crate.json",
+      "sha1": "a85eddbe3c1b55c3e1634e6fd8f7b0355580505b",
+      "size": 4865,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/medic_crate.json",
+      "sha1": "a5d7c5d2cbaf089994b94dc18ad61dc8ec3b2d58",
+      "size": 4409,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t0_far/ammo_crate.json",
+      "sha1": "104091feeaadba2cd9c915d182372e3c1fa18544",
+      "size": 8980,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t0_far/medic_crate.json",
+      "sha1": "ee8bbe11816438bf921f675e52f4b46d5e351106",
+      "size": 8524,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t0_far/weapon_crate.json",
+      "sha1": "abb27796b7642f91790f908a2e1be6c655eab053",
+      "size": 8550,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t0_far/wooden_crate.json",
+      "sha1": "dacc3e44fdb96e6f07db4dd6bd18a97aea37b738",
+      "size": 12011,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t1/ammo_crate.json",
+      "sha1": "15035c262c58153e37c408d38632cf9dc4b602c8",
+      "size": 5814,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t1/medic_crate.json",
+      "sha1": "f7ca22f697ea74154b9e8907179010a9825c6fef",
+      "size": 5358,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t1/weapon_crate.json",
+      "sha1": "0fe4f8cd1855feec24f90695f2b112b512287111",
+      "size": 5384,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t1/wooden_crate.json",
+      "sha1": "8f164d6c31956b9d9a224d510402c17e675099ce",
+      "size": 8843,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t1_far/ammo_crate.json",
+      "sha1": "141cdc9d03c9efb0cc12e29c53d00f5231a1a816",
+      "size": 10618,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t1_far/medic_crate.json",
+      "sha1": "5581a5588cc57b3366782c50c2b71b4d18c102ec",
+      "size": 10162,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t1_far/weapon_crate.json",
+      "sha1": "acaa0f1e87e7bcd0a12c911d05c0aa35c91497a4",
+      "size": 10188,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t1_far/wooden_crate.json",
+      "sha1": "d1fe1d1540d3def914137e62c648d883ee0cbd61",
+      "size": 13647,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t2/ammo_crate.json",
+      "sha1": "a8c79cc2a1d25c09e404b0dc1d4bf66f8d7c458e",
+      "size": 6503,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t2/medic_crate.json",
+      "sha1": "640536fc482f862b3f9a7d80c26692798b6e49ae",
+      "size": 6049,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t2/weapon_crate.json",
+      "sha1": "088a574ef19c4fa80bc580a344c924a952f848d9",
+      "size": 6076,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t2/wooden_crate.json",
+      "sha1": "5e14c175b9554cb0cc1d83f78ebd417c69550c98",
+      "size": 9534,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t2_far/ammo_crate.json",
+      "sha1": "c20920be30328782a7969e1d780b5e40b346539f",
+      "size": 11904,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t2_far/medic_crate.json",
+      "sha1": "1b34a653e4e1464fba40b884320f5088e2a4b042",
+      "size": 11450,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t2_far/weapon_crate.json",
+      "sha1": "039daca23e73e587239620497a507518763aec87",
+      "size": 11477,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t2_far/wooden_crate.json",
+      "sha1": "44f4512580c84b01b956ec4edd37adb4eb386847",
+      "size": 14935,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t3/ammo_crate.json",
+      "sha1": "fe4d447cdcaaad10fc64137b12789fd63a1c17fa",
+      "size": 7102,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t3/medic_crate.json",
+      "sha1": "6f7cfbc59b24d7a5060972a6603e9d2b57bb52c5",
+      "size": 6646,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t3/weapon_crate.json",
+      "sha1": "1fd587416b5fce5c4c4db62e09cd0f3e27593756",
+      "size": 6675,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t3/wooden_crate.json",
+      "sha1": "3dbd4c99a36e108356458b1da238d02a3b300784",
+      "size": 10135,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t3_far/ammo_crate.json",
+      "sha1": "481b516d4accb4e0ef357e36cfe5b17a4bc4e3f7",
+      "size": 12503,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t3_far/medic_crate.json",
+      "sha1": "b9bc5d1151d61cc12c7c1671bdff110dca7acab2",
+      "size": 12047,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t3_far/weapon_crate.json",
+      "sha1": "23c03905b1abb73512e0487a11b1c4386e392ea1",
+      "size": 12076,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/t3_far/wooden_crate.json",
+      "sha1": "4e4294e981d5d09123180cd1b8339c5601b8a453",
+      "size": 15536,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/weapon_crate.json",
+      "sha1": "48a178f53cea66d8dbf979322622ceae8006dcc7",
+      "size": 4435,
+      "since": "3.8.3"
+    },
+    {
+      "path": "config/rks_airdrops/loot/wooden_crate.json",
+      "sha1": "93e40b5eda1718ff852229583b47f8620bf7e5f7",
+      "size": 7896,
+      "since": "3.8.3"
     }
   ]
 }

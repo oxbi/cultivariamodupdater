@@ -1,0 +1,368 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "item",
+          "name": "cultivaria:natural_fertilizer",
+          "weight": 8,
+          "count": 0,
+          "min_count": 4,
+          "max_count": 10
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:compost",
+          "weight": 6,
+          "count": 0,
+          "min_count": 6,
+          "max_count": 12
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:hemp_seeds",
+          "weight": 5,
+          "count": 0,
+          "min_count": 4,
+          "max_count": 8
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:tomato_seeds",
+          "weight": 4,
+          "count": 0,
+          "min_count": 4,
+          "max_count": 8
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:cabbage_seeds",
+          "weight": 4,
+          "count": 0,
+          "min_count": 4,
+          "max_count": 8
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:rice",
+          "weight": 3,
+          "count": 0,
+          "min_count": 4,
+          "max_count": 8
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:acapulco_gold_seeds",
+          "weight": 2,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:afghani_seeds",
+          "weight": 2,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:brazilian_landrace_seeds",
+          "weight": 2,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:colombian_gold_seeds",
+          "weight": 2,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:durban_poison_seeds",
+          "weight": 2,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:hawaiian_seeds",
+          "weight": 2,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:hindu_kush_seeds",
+          "weight": 2,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:south_indian_landrace_seeds",
+          "weight": 2,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:thai_seeds",
+          "weight": 2,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:kizilyurt_ditchweed_seeds",
+          "weight": 1,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:buynaksk_brick_seeds",
+          "weight": 1,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:kaspiysk_seaweed_seeds",
+          "weight": 1,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:derbent_dust_seeds",
+          "weight": 1,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:izberbash_bus_stop_seeds",
+          "weight": 1,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:khasavyurt_sweepings_seeds",
+          "weight": 1,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:syzran_stems_seeds",
+          "weight": 1,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:ryazan_roadside_seeds",
+          "weight": 1,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 10,
+          "count": 0,
+          "min_count": 3,
+          "max_count": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ancient_debris",
+          "weight": 4,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 3,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "weight": 6,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 8,
+          "count": 0,
+          "min_count": 8,
+          "max_count": 16
+        },
+        {
+          "type": "item",
+          "name": "tconstruct:cobalt_ingot",
+          "weight": 5,
+          "count": 0,
+          "min_count": 2,
+          "max_count": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:key_shard_2",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "type": "item",
+          "name": "cultivaria:key_shard_3",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:protection\",lvl:4s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:feather_falling\",lvl:4s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:5s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:looting\",lvl:3s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:3s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 4,
+          "count": 0,
+          "min_count": 1,
+          "max_count": 1,
+          "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+        }
+      ]
+    }
+  ]
+}
