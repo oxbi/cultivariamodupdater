@@ -1,5 +1,5 @@
 {
- "pack_version": "4.0.5",
+ "pack_version": "4.0.6",
  "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -115,9 +115,9 @@
   },
   {
    "path": "config/paxi/resourcepacks/cultivaria-book-covers.zip",
-   "sha1": "778135ed6ebe2bd1548989b74c7ce7100dbaf2b5",
-   "size": 5694,
-   "since": "3.5"
+   "sha1": "1aa7068e9a9bc3815b1ad93737c74d585b4c9f7e",
+   "size": 6482,
+   "since": "4.0.6"
   },
   {
    "path": "config/paxi/resourcepacks/cultivaria-sword-view.zip",
@@ -617,9 +617,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "c79f8fe8cc4aa3a191f6efaa7246bfb3b5b9db49",
-   "size": 8459419,
-   "since": "4.0.4"
+   "sha1": "34c98a346d02d5d3a3b4617ec7af9961f0ca1210",
+   "size": 8529543,
+   "since": "4.0.6"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
