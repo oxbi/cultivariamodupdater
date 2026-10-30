@@ -1,5 +1,5 @@
 {
- "pack_version": "4.0.2",
+ "pack_version": "4.0.4",
  "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -50,6 +50,12 @@
    "sha1": "2bac5ef741b60de044e4c446536541382235a631",
    "size": 79,
    "since": "2.9.14"
+  },
+  {
+   "path": "config/entityculling.json",
+   "sha1": "3ca09d099ac69a75f6d686ed01fbebd362fd3198",
+   "size": 4713,
+   "since": "4.0.2"
   },
   {
    "path": "config/everycomp-hazardous.toml",
@@ -600,9 +606,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "9496695072fd6484d22e4262cb851b4356b963da",
-   "size": 8451894,
-   "since": "4.0.2"
+   "sha1": "c79f8fe8cc4aa3a191f6efaa7246bfb3b5b9db49",
+   "size": 8459419,
+   "since": "4.0.4"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -1323,12 +1329,6 @@
    "sha1": "94ceed8c7add1e892e62309871f5e4bbef49bed8",
    "size": 611,
    "since": "2.9.14"
-  },
-  {
-   "path": "config/entityculling.json",
-   "sha1": "3ca09d099ac69a75f6d686ed01fbebd362fd3198",
-   "size": 4713,
-   "since": "4.0.2"
   }
  ]
 }
