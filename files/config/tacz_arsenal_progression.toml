@@ -1,0 +1,13 @@
+[general]
+maxLevel = 10
+
+[progression]
+progressionMode = "INDIVIDUAL"
+
+[experience]
+bossEntityIds = ["minecraft:wither", "minecraft:ender_dragon", "minecraft:warden", "minecraft:elder_guardian", "cataclysm:netherite_monstrosity", "cataclysm:ender_guardian", "cataclysm:ignis", "cataclysm:the_harbinger", "cataclysm:the_leviathan", "cataclysm:ancient_remnant", "cataclysm:maledictus", "cataclysm:scylla"]
+bossXpMultiplier = 5.0
+
+[damage]
+damagePerLevel = 0.01
+maxDamageBonus = 0.09

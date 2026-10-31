@@ -1,5 +1,5 @@
 {
- "pack_version": "4.0.9",
+ "pack_version": "4.1",
  "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -363,6 +363,18 @@
    "seed": true
   },
   {
+   "path": "config/tacz_arsenal_progression.toml",
+   "sha1": "14d5b892f81da37b77aaf48faebd350b88534ff7",
+   "size": 481,
+   "since": "4.1"
+  },
+  {
+   "path": "config/taczfixes-common.toml",
+   "sha1": "12c8a28142b17769607f7fdb55e26016a8c9f06f",
+   "size": 294,
+   "since": "4.1"
+  },
+  {
    "path": "config/toastcontrol-common.toml",
    "sha1": "3acf23862ce3a9958b53f8f939590262a2438838",
    "size": 271,
@@ -617,9 +629,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "8eb51fb5ab4a4ca9237a89226fb29251f95cc71e",
-   "size": 16629828,
-   "since": "4.0.9"
+   "sha1": "c2285a4d50412ff86aae7e27eac77edf7e76cea0",
+   "size": 17178558,
+   "since": "4.1"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -692,6 +704,12 @@
    "sha1": "fcff067375cfe917cbf235218f49ceb58e598a5c",
    "size": 680255,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/endlessammo-2.0.jar",
+   "sha1": "a56a89cee5768111be08b089c67eb7c69b6b196a",
+   "size": 113576,
+   "since": "4.1"
   },
   {
    "path": "mods/Enhanced-Celestials-forge-1.20.1-5.0.3.3.jar",
@@ -818,6 +836,12 @@
    "sha1": "9ec9da5da2a5884b6abff5f74a763a4f3e54fa38",
    "size": 317181,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/gunskins-1.0.0.jar",
+   "sha1": "f65fc635097b9651e112f0f2e276589ed45ba2d0",
+   "size": 33953092,
+   "since": "4.1"
   },
   {
    "path": "mods/handcrafted-forge-1.20.1-3.0.6.jar",
@@ -952,6 +976,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/maxstuff-legacy-1.8.3_hotfix.jar",
+   "sha1": "5e22c41ec0b5f95e56f1f6485da37faae446ff6d",
+   "size": 33737826,
+   "since": "4.1"
+  },
+  {
    "path": "mods/mcw-bridges-3.1.2-mc1.20.1forge.jar",
    "sha1": "24f30313977ec61520a2adab321188b51c208d16",
    "size": 693579,
@@ -1042,6 +1072,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/packapunch-1.2.4-forge.jar",
+   "sha1": "904ef12935aaa09123919ce4fc6d4df489bd5995",
+   "size": 566663,
+   "since": "4.1"
+  },
+  {
    "path": "mods/particlerain-4.0.2+1.20.1-forge.jar",
    "sha1": "a548b34411e2dd80936baa18f8dc71084430e29a",
    "size": 1257968,
@@ -1082,6 +1118,12 @@
    "sha1": "4f464a183a2df82978c3f6cf55e714bde694af68",
    "size": 301935,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/polytone-1.20-3.5.26.jar",
+   "sha1": "d5ea70bd8d4a29d436901fd2b6e180147c1bdd2c",
+   "size": 1169185,
+   "since": "4.1"
   },
   {
    "path": "mods/PrettyPipes-1.15.0-all.jar",
@@ -1180,6 +1222,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/smooth_steps-forge-1.1.0.jar",
+   "sha1": "8ed4a709eec52a0d11728a4a6067bb5957b53baf",
+   "size": 64291,
+   "since": "4.1"
+  },
+  {
    "path": "mods/solcarrot-1.20.1-1.15.1.jar",
    "sha1": "f7fa1fd0c633b10f98d7f0f97766b95aac1a2dc0",
    "size": 104185,
@@ -1228,6 +1276,12 @@
    "since": "2.9.14"
   },
   {
+   "path": "mods/SubtleEffects-forge-1.20.1-1.15.1-hotfix.1.jar",
+   "sha1": "4beb25822bcd76f3137f864615297d053565ef6f",
+   "size": 3654851,
+   "since": "4.1"
+  },
+  {
    "path": "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
    "sha1": "f80f9eed728966adcfbcc848633e789645057281",
    "size": 206584,
@@ -1244,6 +1298,36 @@
    "sha1": "5c2f72dfe8125ffa863e3b5feafa27d86d7e56ea",
    "size": 57472579,
    "since": "2.9.14"
+  },
+  {
+   "path": "mods/TACZ-Arsenal-Progression-0.3.0.jar",
+   "sha1": "10b25bcedafe8531182f5f3c818911a4c8fc277d",
+   "size": 48555,
+   "since": "4.1"
+  },
+  {
+   "path": "mods/tacz-diygunskinmod_beta1.2.6.jar",
+   "sha1": "4e5f5752e321f7c4f9e1db75fb7b66fcee83a8e7",
+   "size": 222256,
+   "since": "4.1"
+  },
+  {
+   "path": "mods/tacz_dual_wield-1.2.1-dual_wield-hotfix2-patch.jar",
+   "sha1": "3be05b23d32b4d576ef848cc6271caba67d2960e",
+   "size": 724614,
+   "since": "4.1"
+  },
+  {
+   "path": "mods/taczaddon-1.1.8.3-forge-1.20.1.jar",
+   "sha1": "c8143ed7a91800044166dbb0a6de98e37f9dd441",
+   "size": 495813,
+   "since": "4.1"
+  },
+  {
+   "path": "mods/taczfixes-1.9.6.jar",
+   "sha1": "05272ac98a795868cd1bedabf5876b1648f73109",
+   "size": 465029,
+   "since": "4.1"
   },
   {
    "path": "mods/TConstruct-1.20.1-3.11.2.166.jar",
@@ -1330,6 +1414,18 @@
    "since": "2.9.14"
   },
   {
+   "path": "resourcepacks/allure-3d-plants.zip",
+   "sha1": "cac851610ab69d6ef2af165c2f6c47b70c908fe9",
+   "size": 354713,
+   "since": "4.1"
+  },
+  {
+   "path": "resourcepacks/rainbows-foliage-polytone.zip",
+   "sha1": "7146c9c84e6ac016e4179aed22939d1f9d7d9020",
+   "size": 3054639,
+   "since": "4.1"
+  },
+  {
    "path": "shaderpacks/MakeUp-UltraFast-9.5c.zip",
    "sha1": "14e2b7b746e8b37b92a9b7e2bf94308085e8cac4",
    "size": 399953,
@@ -1341,6 +1437,24 @@
    "size": 611,
    "since": "2.9.14",
    "seed": true
+  },
+  {
+   "path": "tacz/mw19_guns_addon_v200.zip",
+   "sha1": "3cc45c91eed936a6c8867ed3096303abf01e6eda",
+   "size": 8905604,
+   "since": "4.1"
+  },
+  {
+   "path": "tacz/the-division-gunpack.zip",
+   "sha1": "f3dfccafb5558929f0177e05a3b6fc1b2dab2e3a",
+   "size": 14120083,
+   "since": "4.1"
+  },
+  {
+   "path": "tacz/ww2-enlisted-gunpack.zip",
+   "sha1": "36b846c0fe1e5bcd844b94ba986b7eecd6e425ad",
+   "size": 15238400,
+   "since": "4.1"
   }
  ]
 }

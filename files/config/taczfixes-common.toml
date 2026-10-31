@@ -1,0 +1,21 @@
+[gun_level]
+max_level = 1
+base_kills = 100000
+bottle_enabled = false
+
+[limb_damage_multiplier.gun_types]
+default = 1.0
+pistol = 1.0
+rifle = 1.0
+sniper = 1.0
+shotgun = 1.0
+smg = 1.0
+rpg = 1.0
+mg = 1.0
+other = 1.0
+
+[limb_damage_multiplier.mobs]
+enabled = false
+
+[gun_enchantment]
+enabled = false
