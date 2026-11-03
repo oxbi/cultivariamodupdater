@@ -1,5 +1,5 @@
 {
- "pack_version": "4.1.21",
+ "pack_version": "4.1.22",
  "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -641,9 +641,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "8d68cfb49c2fb117e6d3e2eb5cef7d960ffb1edd",
-   "size": 17504713,
-   "since": "4.1.21"
+   "sha1": "f36b5f1b09c97254d4c0de374989d50f20c957b5",
+   "size": 17512636,
+   "since": "4.1.22"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
