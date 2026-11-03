@@ -1,5 +1,5 @@
 {
- "pack_version": "4.1.18",
+ "pack_version": "4.1.20",
  "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -70,6 +70,12 @@
    "sha1": "798135de7f211f99042af1b602c6f4d976d76304",
    "size": 59,
    "since": "2.9.14"
+  },
+  {
+   "path": "config/gunskins/mods/cultivaria-skins.zip",
+   "sha1": "2e3496a85ff64cd0ca96da9fa9db74abdbfb8432",
+   "size": 38381772,
+   "since": "4.1.20"
   },
   {
    "path": "config/inventoryhud-client.toml",
@@ -635,9 +641,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "1cce82c3b280e780366ebc25960f240d04dcb65d",
-   "size": 17260244,
-   "since": "4.1.18"
+   "sha1": "8b6cfef01edc330e3b52e46ef2269cdfcd230598",
+   "size": 17500341,
+   "since": "4.1.20"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
