@@ -1,5 +1,5 @@
 {
- "pack_version": "4.1.28",
+ "pack_version": "4.1.29",
  "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -647,9 +647,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "acc97a375bb61f6fdea1ddabc9eccf8c2cf3f0d7",
-   "size": 17577226,
-   "since": "4.1.28"
+   "sha1": "60fd9699c4d4764b825dfefb57586781f41ff18d",
+   "size": 17589621,
+   "since": "4.1.29"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -1454,6 +1454,12 @@
    "sha1": "5cb40c55d3b0a859425039018f597790372c1eae",
    "size": 246180,
    "since": "4.1.28"
+  },
+  {
+   "path": "resourcepacks/VanillaTweaks_GrassSides.zip",
+   "sha1": "b2cc74c42c6f91942c52f0f5692352b2f82e856d",
+   "size": 1692,
+   "since": "4.1.29"
   },
   {
    "path": "shaderpacks/MakeUp-UltraFast-9.5c.zip",
