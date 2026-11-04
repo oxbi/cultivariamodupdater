@@ -1,5 +1,5 @@
 {
- "pack_version": "4.1.27",
+ "pack_version": "4.1.28",
  "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -111,6 +111,12 @@
    "size": 265,
    "since": "2.9.14",
    "seed": true
+  },
+  {
+   "path": "config/particlerain/config.json",
+   "sha1": "f87842dd39865b070751678bbf4709dddd621874",
+   "size": 983,
+   "since": "4.1.28"
   },
   {
    "path": "config/particlerain/particles.json",
@@ -641,9 +647,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "9ff9b0458a1bc45d4a51efccc0f02fd23083914e",
-   "size": 17573208,
-   "since": "4.1.27"
+   "sha1": "acc97a375bb61f6fdea1ddabc9eccf8c2cf3f0d7",
+   "size": 17577226,
+   "since": "4.1.28"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -1444,6 +1450,12 @@
    "since": "4.1"
   },
   {
+   "path": "resourcepacks/stylized-water.zip",
+   "sha1": "5cb40c55d3b0a859425039018f597790372c1eae",
+   "size": 246180,
+   "since": "4.1.28"
+  },
+  {
    "path": "shaderpacks/MakeUp-UltraFast-9.5c.zip",
    "sha1": "14e2b7b746e8b37b92a9b7e2bf94308085e8cac4",
    "size": 399953,
@@ -1458,9 +1470,9 @@
   },
   {
    "path": "shaderpacks/photon_v1.4-cultivaria.zip",
-   "sha1": "c148d7013f737ee6287e4dedb2129c9e0d4bbb66",
-   "size": 3856421,
-   "since": "4.1.27"
+   "sha1": "384ce43f885153b8a937347325374e6c6d02fbb4",
+   "size": 3856699,
+   "since": "4.1.28"
   },
   {
    "path": "tacz/mw19_guns_addon_v200.zip",
