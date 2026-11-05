@@ -1,5 +1,5 @@
 {
- "pack_version": "4.2.0",
+ "pack_version": "4.2.1",
  "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -17,6 +17,7 @@
   "mods/diorama-0.4.0+forge-1.20.1.4.jar",
   "mods/diorama-0.4.0+forge-1.20.1.5.jar",
   "mods/diorama-0.4.0+forge-1.20.1.6.jar",
+  "mods/diorama-0.4.0+forge-1.20.1.8.jar",
   "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
   "mods/lootr-forge-1.20-0.7.35.94.jar",
   "mods/midnightlib-forge-1.9.2+1.20.1.jar",
@@ -660,9 +661,9 @@
   },
   {
    "path": "mods/cultivaria-2.0.1-forge1.20.1.jar",
-   "sha1": "e6c652b42d737c2cdcab34fd95c32ca6f07db2f8",
-   "size": 17674238,
-   "since": "4.2.0"
+   "sha1": "02b88c521e1e0c956b887823db3839492d2dbd71",
+   "size": 17675575,
+   "since": "4.2.1"
   },
   {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
@@ -689,10 +690,10 @@
    "since": "3.0"
   },
   {
-   "path": "mods/diorama-0.4.0+forge-1.20.1.8.jar",
-   "sha1": "ce3d537a67417412d83a8571fda4f45e9a13bf04",
-   "size": 775159,
-   "since": "4.2.0"
+   "path": "mods/diorama-0.4.0+forge-1.20.1.9.jar",
+   "sha1": "0133600995cfdac7019c285b3b1cb77b872088ab",
+   "size": 780248,
+   "since": "4.2.1"
   },
   {
    "path": "mods/dynamiclights-v1.9-mc1.17-1.21.9-mod.jar",
