@@ -1,5 +1,5 @@
 {
- "pack_version": "4.3.0",
+ "pack_version": "4.3.1",
  "updater_sha1": "44f9825c6040df3c36721c2c44d732b79e5a0cd3",
  "owned_globs": [
   "mods/cultivaria-*.jar",
@@ -30,9 +30,9 @@
  "extras": [
   {
    "path": "config/paxi/resourcepacks/cultivaria-music.zip",
-   "url": "https://github.com/oxbi/cultivaria-music/releases/download/music-v1/cultivaria-music.zip",
-   "sha256": "7d19a41aa1491b28c7a289e50eaafaf757503566bf87df46d1f8606dd7fb4b31",
-   "size": 1063296015
+   "url": "https://github.com/oxbi/cultivaria-music/releases/download/music-v2/cultivaria-music.zip",
+   "sha256": "fcf5d17e0f29ed311ef8ba814a59505d8f77ec324dde8b8e08be966794e3fc0f",
+   "size": 1337581081
   }
  ],
  "files": [
