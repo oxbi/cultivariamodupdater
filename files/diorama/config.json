@@ -1,0 +1,11 @@
+{
+  "minimapSize": 72,
+  "minimapCorner": "TOP_LEFT",
+  "radarPlayers": true,
+  "radarHostile": false,
+  "radarNeutral": false,
+  "radarPassive": false,
+  "radarItems": false,
+  "radarStyle": "HEADS",
+  "playerNames": "ALWAYS"
+}
